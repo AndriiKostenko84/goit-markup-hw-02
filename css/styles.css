@@ -9,6 +9,7 @@
 .body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+
 }
 .list {
   list-style: none;
@@ -71,9 +72,9 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-btn {
+.btn-hero {
   font-family: inherit;
-    font-weight: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -84,8 +85,8 @@
   cursor: pointer;
   background: var(--accent-color);
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.btn-hero:hover,
+.btn-hero:focus {
     color: #188CE8;
 }
 
@@ -172,3 +173,24 @@
 }
 
 /* ----footer---- */
+
+/* -----portfolio----- */
+
+/* -----portf btn-----*/
+
+.button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button .button-filter:hover,
+.button .button-filter:focus {
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+}
+
