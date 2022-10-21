@@ -6,7 +6,7 @@
 }
 
 
-.body {
+body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 
@@ -33,7 +33,6 @@
 
 .site-nav {
   color: var(--secondary-color);
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,7 +44,7 @@
   color: var(--accent-color);
 }
 .contacts .contacts-item {
-  font-family: "Roboto";
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -63,8 +62,7 @@
   background-color: #2f303a;
 }
 .hero-title {
-  font-family: "Roboto";
-  font-weight: 900;
+    font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -97,7 +95,6 @@
 }
 
 .feature-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -107,7 +104,7 @@
 }
 
 .feature-text {
-  font-family: "Roboto";
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -179,7 +176,6 @@
 /* -----portf btn-----*/
 
 .button {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
